@@ -64,7 +64,7 @@ function Dropdown() {
   return (
 
     <div className="flex justify-end">
-      <ul className=" absolute ease-in duration-200">
+      <ul className=" absolute ease-in duration-200 bg-pink py-3 px-1 leading-tight  rounded border-radius-90%">
      {options.map((val) => {
           return (
             <li key={val.title}>
@@ -75,12 +75,13 @@ function Dropdown() {
                 smooth={true}
                 offset={50}
                 duration={500}
-                className="dropdown-toggle px-6 py-2.5 text-white font-medium text-xs
+                className="dropdown-toggle px-6 py-1 text-white font-medium text-xs
                 leading-tight
                 uppercase
+               bg-gray-920
                 rounded
                 shadow-md
-                hover:bg-blue-700 
+                hover:bg-black
                 transition
                 duration-150
                 ease-in-out
