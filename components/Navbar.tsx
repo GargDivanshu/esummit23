@@ -15,8 +15,9 @@ function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="bg-pink p-5 border-spacing-0 flex flex-row justify-between w-[100%] sticky">
-      <div>
+    <>
+    <nav className="bg border-gray-200 px-2 flex flex-wrap items-center justify-between mx-auto sm:px-4 py-2.5 rounded dark:bg-gray-900">
+      <div className="flex items-center h-6 mr-3 sm:h-9">
         <Image src="/ecell_logo_white.png" width={100} height={100} alt="" />
       </div>
 
@@ -24,7 +25,7 @@ function Navbar() {
         {options.map((val) => (
           <li key={val.title}>
             <Link
-              activeClass="active"
+              activeclassName="active"
               to={val.path}
               spy={true}
               smooth={true}
@@ -53,6 +54,7 @@ function Navbar() {
         {open ? <Dropdown /> : null}
       </div>
     </nav>
+   </>
   );
 }
 
@@ -60,9 +62,10 @@ export default Navbar;
 
 function Dropdown() {
   return (
-    <div className=" flex justify-end  ">
+
+    <div className="flex justify-end">
       <ul className=" absolute ease-in duration-200">
-        {options.map((val) => {
+     {options.map((val) => {
           return (
             <li key={val.title}>
               <Link
@@ -73,11 +76,15 @@ function Dropdown() {
                 offset={50}
                 duration={500}
                 className="my-2 hover:font-bold hover:ease-in hover:duration-100 hover:text-pink hover:rounded-md hover:cursor-pointer text-sm text-white"
-              ></Link>
+              >{val.title}</Link>
             </li>
           );
         })}
       </ul>
-    </div>
+
+        </div>
+    
+      
   );
 }
+
