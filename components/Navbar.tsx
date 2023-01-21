@@ -75,7 +75,19 @@ function Dropdown() {
                 smooth={true}
                 offset={50}
                 duration={500}
-                className="my-2 hover:font-bold hover:ease-in hover:duration-100 hover:text-pink hover:rounded-md hover:cursor-pointer text-sm text-white"
+                className="dropdown-toggle px-6 py-2.5 text-white font-medium text-xs
+                leading-tight
+                uppercase
+                rounded
+                shadow-md
+                hover:bg-blue-700 
+                transition
+                duration-150
+                ease-in-out
+                flex
+                items-center
+                whitespace-nowrap
+              "
               >{val.title}</Link>
             </li>
           );
