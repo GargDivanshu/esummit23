@@ -5,37 +5,37 @@ import { Element } from "react-scroll";
 function Events() {
   const events = [
     { 
-      index: 1,
+      
       eventName: "Event 1",
       date: "DD/MM/YY",
       imagePath: "/imagePath.png",
     },
     { 
-      index: 2,
+      
       eventName: "Event 2",
       date: "DD/MM/YY",
       imagePath: "/imagePath.png",
     },
     { 
-      index: 3,
+     
       eventName: "Event 3",
       date: "DD/MM/YY",
       imagePath: "/imagePath.png",
     },
     { 
-      index: 4,
+      
       eventName: "Event 4",
       date: "DD/MM/YY",
       imagePath: "/imagePath.png",
     },
     { 
-      index: 5,
+     
       eventName: "Event 5",
       date: "DD/MM/YY",
       imagePath: "/imagePath.png",
     },
     { 
-      index: 6,
+      
       eventName: "Event 6",
       date: "DD/MM/YY",
       imagePath: "/imagePath.png",
@@ -50,11 +50,10 @@ function Events() {
         </h1>
         <div className="place-items-center grid grid-cols-1 lg:grid-cols-3 md:gap-2">
           {events.map((e) => {
-            const { index, eventName, date, imagePath } = e;
+            const { eventName, date, imagePath } = e;
             return (
               <>
                 <EventCard
-                key={index}
                   imagePath={imagePath}
                   date={date}
                   eventName={eventName}
