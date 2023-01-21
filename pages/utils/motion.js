@@ -14,7 +14,7 @@ export const navVariants = {
       transition: {
         type: 'spring',
         stiffness: 80,
-        delay: 1,
+        // delay: 1,
       },
     },
   };
@@ -40,8 +40,8 @@ export const navVariants = {
     hidden: {},
     show: {
       transition: {
-        staggerChildren,
-        delayChildren,
+        staggerChildren: 0.3,
+        delayChildren: 0,
       },
     },
   });
@@ -57,7 +57,7 @@ export const navVariants = {
       transition: {
         type: 'spring',
         duration: 1,
-        delay,
+        // delay,
       },
     },
   });
@@ -99,7 +99,7 @@ export const navVariants = {
       opacity: 1,
       transition: {
         type,
-        delay,
+        // delay,
         duration,
         ease: 'easeOut',
       },

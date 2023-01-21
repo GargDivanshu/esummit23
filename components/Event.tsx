@@ -4,13 +4,11 @@ import {motion} from 'framer-motion';
 import {fadeIn} from "../pages/utils/motion"
 
 
-function EventCard({
-  index, 
+function EventCard({ 
   date,
   eventName,
   imagePath,
 }: {
-  index: number;
   date: string;
   eventName: string;
   imagePath: string;
