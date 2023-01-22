@@ -27,14 +27,14 @@ export default function () {
           <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
             <img
               className="object-cover w-full h-56 md:h-64 xl:h-80"
-              src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+              src="https://images.moneycontrol.com/static-mcnews/2021/08/Ashneer-Grover-2-770x433.jpg?impolicy=website&width=770&height=431"
               alt="Person"
             />
             <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
               <p className="mb-1 text-lg font-bold text-gray-100">
-                Oliver Aguilerra
+                Ashneer Grover
               </p>
-              <p className="mb-4 text-xs text-gray-100">Product Manager</p>
+              <p className="mb-4 text-xs text-gray-100"> Former co-founder of BharatPe</p>
              
               
             </div>
@@ -44,14 +44,14 @@ export default function () {
           <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
             <img
               className="object-cover w-full h-56 md:h-64 xl:h-80"
-              src="https://images.pexels.com/photos/2381069/pexels-photo-2381069.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+              src="https://raw.githubusercontent.com/ecelldtu/esummit/main/images/Kenny-Sebastian.webp"
               alt="Person"
             />
             <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
               <p className="mb-1 text-lg font-bold text-gray-100">
-                Marta Clermont
+                Kenny Sebastian
               </p>
-              <p className="mb-4 text-xs text-gray-100">Design Team Lead</p>
+              <p className="mb-4 text-xs text-gray-100">Comedian</p>
              
             </div>
           </div>
@@ -60,14 +60,14 @@ export default function () {
           <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
             <img
               className="object-cover w-full h-56 md:h-64 xl:h-80"
-              src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+              src="https://upload.wikimedia.org/wikipedia/commons/d/d4/Vinod_Dham_%28cropped%29.jpg"
               alt="Person"
             />
             <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
               <p className="mb-1 text-lg font-bold text-gray-100">
-                Anthony Geek
+                Vinod Dham
               </p>
-              <p className="mb-4 text-xs text-gray-100">CTO, Lorem Inc.</p>
+              <p className="mb-4 text-xs text-gray-100">Father Of Pentium</p>
               
             </div>
           </div>
@@ -76,14 +76,14 @@ export default function () {
           <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
             <img
               className="object-cover w-full h-56 md:h-64 xl:h-80"
-              src="https://images.pexels.com/photos/3747435/pexels-photo-3747435.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+              src="https://starsunfolded.com/wp-content/uploads/2020/08/Rahul-Dua.jpg"
               alt="Person"
             />
             <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
               <p className="mb-1 text-lg font-bold text-gray-100">
-                Alice Melbourne
+                Rahul Dua
               </p>
-              <p className="mb-4 text-xs text-gray-100">Human Resources</p>
+              <p className="mb-4 text-xs text-gray-100">Comedian</p>
               
             </div>
           </div>
@@ -92,14 +92,14 @@ export default function () {
           <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
             <img
               className="object-cover w-full h-56 md:h-64 xl:h-80"
-              src="https://images.pexels.com/photos/3785077/pexels-photo-3785077.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500"
+              src="https://esummit.ecelldtu.in/images/ASHWANI-LOHANI.webp"
               alt="Person"
             />
             <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
               <p className="mb-1 text-lg font-bold text-gray-100">
-                Martin Garix
+              ASHWANI LOHANI
               </p>
-              <p className="mb-4 text-xs text-gray-100">Good guy</p>
+              <p className="mb-4 text-xs text-gray-100">CEO AIR INDIA LIMITED</p>
               
             </div>
           </div>
@@ -108,14 +108,14 @@ export default function () {
           <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
             <img
               className="object-cover w-full h-56 md:h-64 xl:h-80"
-              src="https://images.pexels.com/photos/3931603/pexels-photo-3931603.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+              src="https://esummit.ecelldtu.in/images/Rajiv-Sikka.webp"
               alt="Person"
             />
             <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
               <p className="mb-1 text-lg font-bold text-gray-100">
-                Andrew Larkin
+              RAJIV SIKKA
               </p>
-              <p className="mb-4 text-xs text-gray-100">Backend Developer</p>
+              <p className="mb-4 text-xs text-gray-100">CEO INDIAN OIL-ADANI GAS</p>
               
             </div>
           </div>
@@ -124,14 +124,14 @@ export default function () {
           <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
             <img
               className="object-cover w-full h-56 md:h-64 xl:h-80"
-              src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+              src="https://i0.wp.com/biographyinsider.com/wp-content/uploads/2021/09/Ankur-Warikoo.jpeg?fit=1920%2C2400&ssl=1"
               alt="Person"
             />
             <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
               <p className="mb-1 text-lg font-bold text-gray-100">
-                Sophie Denmo
+                Ankur Warikoo
               </p>
-              <p className="mb-4 text-xs text-gray-100">Designer</p>
+              <p className="mb-4 text-xs text-gray-100">former CEO of Groupon India, co-founder & former CEO of Nearbuy</p>
               
             </div>
           </div>
@@ -140,14 +140,14 @@ export default function () {
           <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
             <img
               className="object-cover w-full h-56 md:h-64 xl:h-80"
-              src="https://images.pexels.com/photos/3931553/pexels-photo-3931553.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+              src="https://cdn.zeebiz.com/sites/default/files/styles/zeebiz_850x478/public/2021/08/11/156320-dukaan.jpg?itok=3-ESTIEE&c=c5af8c0f92ccc8e249257bf0f1cb18e8"
               alt="Person"
             />
             <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
               <p className="mb-1 text-lg font-bold text-gray-100">
-                Benedict Caro
+               Subash Chaudhary
               </p>
-              <p className="mb-4 text-xs text-gray-100">Frontend Developer</p>
+              <p className="mb-4 text-xs text-gray-100">Co-Founder & CTO of DUKAAN</p>
               
             </div>
           </div>
