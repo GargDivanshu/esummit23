@@ -4,7 +4,7 @@ import About from "./screens/about";
 import Events from "./screens/events";
 import Home from "./screens/home";
 import Itenaryscreen from "./screens/itenaryscreen";
-
+import PastSpeakers from "../components/PastSpeakers"
 export default function Root() {
 
   return (
@@ -14,6 +14,7 @@ export default function Root() {
       <About />
       <Itenaryscreen />
       <Events />
+      <PastSpeakers/>
 
       <Footer />
     </div>
