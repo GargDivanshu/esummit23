@@ -25,7 +25,6 @@ function Navbar() {
         {options.map((val) => (
           <li key={val.title}>
             <Link
-              activeclassName="active"
               to={val.path}
               spy={true}
               smooth={true}
